@@ -1,0 +1,99 @@
+.container{
+    padding: 2.5% 17% .5% 17%;
+    width: 70%;
+    float: right;
+    overflow-y: auto;
+}
+
+.heading{
+    font-size: 2.7rem;
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.618em;
+}
+
+.underline{
+    position: relative;
+}
+
+.underline::after{
+    content: '';
+    position: absolute;
+    bottom: 13%;
+    left: 0;
+    background-color: #FF8021;
+    width: 100%;
+    height: 2rem;
+    display: inline-block;
+    z-index: -1;
+    transform: translateY(50%);
+}
+
+.login{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.618em;
+}
+
+.link:link, .link:visited{
+    text-decoration: underline !important;
+}
+
+.extra_link:link, .extra_link:visited{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.partner{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 2rem 0;
+    line-height: 1.618em;
+}
+
+.special_link:link, .special_link:visited{
+    color: #FF8021 !important;
+}
+
+.mail{
+    float: left;
+    margin-right: 1.2rem;
+}
+
+.cover{
+    margin: 4.5rem 0;
+}
+
+.normal{
+    font-size: 1.2rem;
+    margin-top: 2.8rem;
+    line-height: 1.618em;
+}
+
+/*Phone-Portrait*/
+
+@media only screen and (max-width: 599px) {
+    .container{
+        width: 100%;
+    } 
+}
+  
+/*Tablet-Portrait*/
+
+@media only screen and (min-width: 600px) and (max-width: 900px) and (min-height: 600px) {
+  
+}
+  
+/*Phone-Landscape*/
+  
+@media only screen and (min-width: 500px) and (max-width: 900px) and (max-height: 600px) {
+    .container{
+        width: 100%;
+    } 
+}
+
+/* Tablet-Landscape*/
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) and (max-height: 900px) {
+    
+}

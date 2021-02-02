@@ -41,7 +41,6 @@ export default function Setup(){
                                 Manage multiple outlets for your business.
                             </p>
 
-                            <hr className={styles.liny} />
                         </a>
                     </Link>
                     
@@ -91,7 +90,6 @@ export default function Setup(){
                                 Configure details displayed on invoices issued to your clients.
                             </p>
 
-                            <hr className={styles.liny} />
                         </a>
                     </Link>
                 </section>
@@ -154,7 +152,6 @@ export default function Setup(){
                                 Manage permissions and restrictions to any member of your team.
                             </p>
 
-                            <hr className={styles.liny} />
                         </a>
                     </Link>
 
@@ -232,7 +229,6 @@ export default function Setup(){
                                 Set up guideline for cancellation. Ask customer why they cancelled.
                             </p>
 
-                            <hr className={styles.liny} />
                         </a>
                     </Link>
 
@@ -254,7 +250,6 @@ export default function Setup(){
                                 Provide your personal details or change your password.
                             </p>
 
-                            <hr className={styles.liny} />
                         </a>
                     </Link>
                     
